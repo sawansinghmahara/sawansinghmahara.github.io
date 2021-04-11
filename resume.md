@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: My personality, education and interests summarised!
+title: Résumé
+subtitle: Distributed Machine Learning Researcher
 ---
 
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
