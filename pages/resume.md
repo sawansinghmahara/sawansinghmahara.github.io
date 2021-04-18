@@ -2,7 +2,6 @@
 layout: page
 title: Résumé
 subtitle: Distributed Machine Learning Researcher
-permalink: /assets/SawanCV.pdf
 ---
 
 <span style="float: right; "><a href="{{ '/assets/SawanCV.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
