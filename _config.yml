@@ -1,7 +1,6 @@
 # Site settings
-title: Home
-description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+title: "Home"
+description: "Welcome to my website!"
 
 #baseurl: "/Pudhina" # the subpath of your site, e.g. /blog/
 url: "https://sawansinghmahara.github.io/Pudhina" # the base hostname & protocol for your site

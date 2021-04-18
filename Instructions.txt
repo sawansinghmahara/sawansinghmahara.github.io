@@ -1,0 +1,5 @@
+To edit Tab names
+_includes/meta_tags/base.html
+
+To add/remove section links
+_includes/header.html
