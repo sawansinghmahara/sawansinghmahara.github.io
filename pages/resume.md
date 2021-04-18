@@ -12,8 +12,8 @@ permalink: /assets/SawanCV.pdf
 ``` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed porttitor mi. In bibendum tortor nec massa finibus, id ultricies urna pulvinar. Sed congue blandit est non sagittis. In eget lobortis ipsum. Quisque id nisl nisl. Donec nec dapibus diam. Donec vel euismod nisi.  ```  
 
 ### PROJECTS
-**Title** - Description - Place <span style="float: right; ">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
+**NVIDIA Jetson and Federated Learning** -Simulating Federated Learning Scenarios with The Jetson Nano -IIT Dharwad <span style="float: right; ">Ongoing Work</span>  
+The scenarios being looked into are distributed object tracking and detection. Using transfer learning, pre-trained object detection/tracking models are being adapted to work on custom data implemented with the NVIDIA DeepStream SDK. Future plans involve coordinating training on the institute NVIDIA DGXA100 and creating docker containers to ease deployability on any Jetson Nanos or other similar edge devices.
 
 **Title** - Description - Place <span style="float: right; ">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
