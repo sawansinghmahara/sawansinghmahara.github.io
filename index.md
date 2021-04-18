@@ -16,8 +16,8 @@ sitemap:
 </div>
 <div class="about">
 <div class="about__text">
-<br> Sometimes it rains, so carry an umbrella. One thing you can control, <br>
-<strong> and one you can't. </strong>
+<br> Sometimes it rains, so carry an umbrella. One thing you can't control, <br>
+<strong> and one you can. </strong>
 
 </div>
 </div>
