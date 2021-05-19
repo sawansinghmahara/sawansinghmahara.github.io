@@ -3,7 +3,7 @@ title: "Home"
 description: "Welcome to my website!"
 
 url: "https://sawansinghmahara.github.io/Pudhina" # the base hostname & protocol for your site
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+# baseurl: "/blog" # the subpath of your site, e.g. /blog/
 
 author:
   fullname: Sawan Singh Mahara
