@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/bio-photo.jpg' | prepend: site.baseurl }}" id="about-img">
 
 <div id="describe-text">
 	<p>Here you can find some information about me, my publications or you could check out the blogs I wrote! </p>
