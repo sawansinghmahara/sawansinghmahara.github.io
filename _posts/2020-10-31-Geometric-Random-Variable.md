@@ -6,6 +6,7 @@ date:   2020-10-31 21:21:21 +0530
 tags:
   - Probability
   - Problems
+permalink: "/_posts/geometric_rv"
 ---
 I wrote this explanation for some teaching assistant work for undergraduates during my Master's. It might be a bit sloppy, but here it goes! 
 
