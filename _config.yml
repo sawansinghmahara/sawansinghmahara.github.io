@@ -1,15 +1,16 @@
 # Site settings
-title: "Home"
-description: "Welcome to my website!"
+title: Pudhina
+description: >
+  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://sawansinghmahara.github.io/Pudhina" # the base hostname & protocol for your site
+baseurl: "/Pudhina" # the subpath of your site, e.g. /blog/
+url: "https://knhash.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Sawan Singh Mahara
-  github: SmellingSalt
-  linkedin: sawan-singh-mahara-592598136/
-  email: sawansinghmahara@gmail.com
+  fullname: Pudhina
+  github: github
+  linkedin: linkedin
+  email: example@email.com
 
 
 # Syntax highlighting
@@ -20,17 +21,3 @@ styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.lig
 # Build settings
 highlighter: null
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-...
-
-links:
-  section_1:
-    - title: home
-      url: /
-      key_trigger: 1
-    - title: my posts
-      url: /posts
-      key_trigger: 2
-...
