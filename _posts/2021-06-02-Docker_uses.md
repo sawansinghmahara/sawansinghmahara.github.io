@@ -31,22 +31,41 @@ to serve up the site locally! Now I can make changes and see the effects immedia
 
 As a bonus, I don't have to be bothered about umpteen dependencies being installed or be surprised when it works on a Tuesday, but not on a Wednesday!
 
+## Issue
+
+One gripe I have with this is that the usual `ctrl+c` doesn't shut off the server.
+
+When I need to close it, one way I found to do this is  
+
+1. Run `htop` ([linux task manager](https://htop.dev/)) and sort all the processes according to the time they were running for
+
+1. Search through the processes running and look for something along the lines of `ruby /usr/gem/bin/jekyll serve -H 0.0.0.0` under the commands, around the time I think it has been running for. 
+
+2. I then kill it either by
+
+   * Highlighting it using the arrow keys
+
+   * Typing `c`$$\to$$ `F9`$$\to$$`9` and then `enter`
+
+   or by getting its process ID in the first column `PID`, say `23081` and typing
+
+   * sudo kill -9  23081
+
 <div class="about">
 <div class="about__devider">*******</div>
 <br>  <br>
 </div>
 # Removing Selected Docker Containers
 
-Type the following
+If there are many containers cluttering my system, manually typing one command after another to remove each would be tedious. Instead, by typing the following
 
 ```bash
 {% raw %} docker ps -a --format {{.Names}} > names.txt {% endraw %}
 ```
 
-to get all the names of the docker images, stored in the text file `names.txt`.
+I get all the names of the docker images to be stored in a text file `names.txt`.
 
-* Add, delete or keep all the entries in the text file the same.
-* The following code deletes all the containers whose names are present in `name.txt`, and then deletes it.
+I then modify the text file to keep or delete some containers, following which the python code below deletes all the containers whose names are present in `name.txt`.
 
 ```python
 import os
