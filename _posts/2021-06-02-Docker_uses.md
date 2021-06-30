@@ -99,10 +99,7 @@ Assuming you have VSCode installed
 * Open it and then paste the following in at the end, before the `}`
 
   ```json
-  
   //Other Settings are here
-  
-  
   //latex
       "latex-workshop.docker.enabled": true,
       "latex-workshop.latex.outDir": "./out",
@@ -111,7 +108,6 @@ Assuming you have VSCode installed
       "latex-workshop.docker.image.latex": "blang/latex",
   //latex
   }
-  
   ```
 
 Now click the green play button on the top to run the `.tex` file. 
