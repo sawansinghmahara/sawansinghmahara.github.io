@@ -11,6 +11,8 @@ permalink: "/_posts/docker_uses"
 
 ---
 
+[TOC]
+
 # Making this website!
 
 Working with jekyll is sort of fun and interesting, but getting ruby and gems installed on my computer isn't. Docker came to the rescue and long story short, by running
