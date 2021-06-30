@@ -79,11 +79,58 @@ os.system("rm names.txt")
 <div class="about__devider">*******</div>
 <br>  <br>
 </div>
-
-
-
-
-
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+# Running Latex 
+
+Installing latex and their dependencies can sometimes be too much work. Instead, a docker image can contain the latex installation.
+
+First pull the following docker image
+
+```bash
+docker pull blang/latex
+```
+
+Assuming you have VSCode installed
+
+* Type `ctrl+shift+P` and then search for `Preferences: Open Settings (JSON)`
+
+* Open it and then paste the following in at the end, before the `}`
+
+  ```json
+  
+  //Other Settings are here
+  
+  
+  //latex
+      "latex-workshop.docker.enabled": true,
+      "latex-workshop.latex.outDir": "./out",
+      "latex-workshop.synctex.afterBuild.enabled": true,
+      "latex-workshop.view.pdf.viewer": "tab",
+      "latex-workshop.docker.image.latex": "blang/latex",
+  //latex
+  }
+  
+  ```
+
+Now click the green play button on the top to run the `.tex` file. 
+You can test it out with this as well
+
+```latex
+\documentclass{article}
+\begin{document}
+A simple and \tiny{tiny} \normalsize \LaTeX \ document.
+\end{document}
+```
+
+
+
+<div class="about">
+<div class="about__devider">*******</div>
+<br>  <br>
+</div>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
