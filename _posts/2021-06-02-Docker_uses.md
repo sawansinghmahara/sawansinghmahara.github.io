@@ -11,7 +11,8 @@ permalink: "/_posts/docker_uses"
 
 ---
 
-[TOC]
+* Contents
+{:toc}
 
 # Making this website!
 
