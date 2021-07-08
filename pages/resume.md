@@ -5,6 +5,6 @@ subtitle: Distributed Machine Learning Researcher
 ---
 <br>
 <br>
-<center><a href="{{ '/assets/SawanCV.pdf' | prepend: site.baseurl }}"><strong> Download my Resume! </strong></a> </center>
+<center><a href="{{ '/assets/SawanCV.pdf' | prepend: site.baseurl }}"><strong class="glitch"> Download my Resume! </strong></a> </center>
 <br>
-<script> document.getElementsByTagName('strong')[0].classList.add('glitch'); </script>
+<!-- <script> document.getElementsByTagName('strong')[0].classList.add('glitch'); </script> -->
