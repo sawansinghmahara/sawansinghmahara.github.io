@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="32">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#1374EF" fill-rule="nonzero" d="M0 4c0-2.21 1.75-4 3.9-4h84.2C90.25 0 92 1.79 92 4v24c0 2.21-1.75 4-3.9 4H3.9A3.95 3.95 0 0 1 0 28V4z"/>
+    <path fill="#1269D3" d="M32 32V0h1v32z"/>
+    <svg fill="#FFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="47 -1.5 55 55"><path fill="none" stroke="#FFFF" 
+    stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" 
+    d="M32.507,25c3.685,0,5.344-1.398,5.87-1.714c-0.692-0.904-1.044-1.999-1.15-3.17c-0.328-3.624,1.718-5.316,1.718-5.316s2.978,1.691,3.691,5.452C46.576,19.171,49,21.17,49,21.17s-1.233,4.329-7.482,4.092C37.272,35.837,28.184,41,17,41C4.96,41,1,32.235,1,26.759C1,25.768,1.138,25,1.138,25S28.526,25,32.507,25z"/><path d="M16 31c.128 0 .25.024.362.068-.122.07-.204.202-.204.353 0 .225.183.408.408.408.154 0 .289-.086.358-.212C16.973 31.735 17 31.864 17 32c0 .552-.448 1-1 1-.552 0-1-.448-1-1C15 31.448 15.448 31 16 31M0 29h49.857c-1.086-.275-3.435-.647-3.047-2.07-1.974 2.284-6.734 1.602-7.936.476-1.338 1.94-9.126 1.203-9.669-.309-1.677 1.968-6.874 1.968-8.552 0-.543 1.512-8.332 2.249-9.67.309-1.201 1.126-5.961 1.808-7.935-.476C3.435 28.353 1.086 28.725 0 29"/>
+    <path fill="none" stroke="#FFFF" stroke-miterlimit="10" stroke-width="2" d="M26 20H31V25H26zM21 20H26V25H21zM16 20H21V25H16zM11 20H16V25H11zM6 20H11V25H6zM21 10H26V15H21zM21 15H26V20H21zM16 15H21V20H16zM11 15H16V20H11z"/>
+    <path fill="none" stroke="#FFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" 
+    d="M13.192,33.766c0,0-4.591,1.604-9.894,0.684"/>
+    </svg>
+    <text font-style="normal" font-weight="normal" transform="matrix(0.75, 0, 0, 0.74499, 32.6213, 7.13838)" xml:space="preserve"  text-anchor="start" font-family="'Montserrat Medium'" font-size="24" id="svg_1" y="20.06098" x="2.99957" stroke-width="0" stroke="#000" fill="#ffffff">Docker</text>
+  </g>
+</svg>
