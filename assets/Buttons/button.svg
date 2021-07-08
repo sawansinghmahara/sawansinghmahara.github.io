@@ -23,19 +23,13 @@
         stroke-width="2" 
         d="M13.192,33.766c0,0-4.591,1.604-9.894,0.684"/>
       </svg>
-    <text 
-    font-style="normal" 
-    font-weight="normal" 
-    transform="matrix(0.6, 0, 0, 0.6, 15.6213, 8)" 
-    xml:space="preserve"  
-    text-anchor="start" 
-    font-family="'Montserrat Medium'" 
-    font-size="22" 
-    id="svg_1" y="20.06098" x="2.99957" 
-    stroke-width="0" 
-    stroke="#000" 
-    fill="#ffffff">
-    Docker
-    </text>
+    <g transform="translate(50)" font-family="'DejaVu Sans',Verdana,Geneva,sans-serif" font-size="13">
+      <text fill="#010101" fill-opacity=".3">
+          <tspan x="-9" y="21">Docker</tspan>
+        </text>
+      <text fill="#FFFFFF">
+          <tspan x="-10" y="20">Docker</tspan>
+      </text>
+    </g>
   </g>
 </svg>
