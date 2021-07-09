@@ -37,21 +37,21 @@ As a bonus, I don't have to be bothered about umpteen dependencies being install
 
 One gripe I have with this is that the usual `ctrl+c` doesn't shut off the server.
 
-When I need to close it, one way I found to do this is  
+When I need to close it, I have to kill the docker container itself, which can be done by running the following commands
 
-1. Run `htop` ([linux task manager](https://htop.dev/)) and sort all the processes according to the time they were running for
+* Get the docker container name
 
-1. Search through the processes running and look for something along the lines of `ruby /usr/gem/bin/jekyll serve -H 0.0.0.0` under the commands, around the time I think it has been running for. 
+  ```bash
+  docker ps -a
+  ```
 
-2. I then kill it either by
+* Kill the Jekyll server with
 
-   * Highlighting it using the arrow keys
+  ``` bash
+  docker kill <ContainerName>
+  ```
 
-   * Typing `c`$$\to$$ `F9`$$\to$$`9` and then `enter`
-
-   or by getting its process ID in the first column `PID`, say `23081` and typing
-
-   * sudo kill -9  23081
+  
 
 <div class="about">
 <div class="about__devider">*******</div>
@@ -131,4 +131,3 @@ A simple and \tiny{tiny} \normalsize \LaTeX \ document.
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-
