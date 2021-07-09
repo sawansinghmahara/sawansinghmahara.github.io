@@ -7,7 +7,7 @@ subtitle: Distributed Machine Learning Researcher
 <br>
 <div class="svg-wrapper" rel>
 <center><a href="{{ '/assets/SawanCV.pdf' | prepend: site.baseurl }}">
-<strong class="myhover"> Download my Resume! </strong></a> </center>
+<strong class="glitch"> Download my Resume! </strong></a> </center>
 </div>
 <br>
 
