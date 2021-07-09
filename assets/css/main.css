@@ -62,7 +62,7 @@
       position: relative;
       cursor: pointer;
     }
-  
+  /* Hover animation from https://codepen.io/OscarDenpix/pen/wvJMVvw*/
   .logo {
     width: 150px;
     font-size: 300%;
@@ -174,13 +174,29 @@
 
   .social-links {
     float: right;
+    padding-right: 5%;
     font-size: 150%;
     color: #828282;
-    list-style-type: none; }
-
+    list-style-type: none; 
+  }
+  /* Animation from https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ */
   .social-links__entry {
+    width:30px;
     display: inline-block;
-    margin-left: 10px; }
+    margin-left: 20px;
+   }
+  .links__entry:last-child {
+      margin-right: 0px; }
+  
+  .social-links__entry:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    padding: 5px;
+    transition: 0.2s;
+    border-radius: 100%;
+    box-shadow: 10px -2px 6px #0808083d;
+  }
 
 /* =Titles *//*************************************************************/
   .page-title {
