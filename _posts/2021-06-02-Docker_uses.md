@@ -196,7 +196,13 @@ It does the following things
 
 #### What to do with this?
 
-An ubuntu image can be created on your system with this docker file with the command `docker build -t . <custom_image_name>`.
+An ubuntu image can be created on your system with this docker file with the command 
+
+``` bash
+docker build -t . <custom_image_name>
+```
+
+
 
 #### What does this have to do with VSCode?
 
