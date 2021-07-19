@@ -3,8 +3,8 @@ layout: page
 title: About me
 ---
 # Who am I? What is this website?
-I am a currently a Master's researcher at the Indian Institute of Technology - Dharwad. I did my Bachelor's in Engineering at PESIT Bangalore South Campus, in Electronics and Communication Engineering. I currently am researching the field of Distributed Machine Learning, which looks into machine learning across a network of devices! 
-I have am interested in many disciplines of the likes of reinforcement learning, deep learning, natural language processing, computer vision, and more. As these are ever evolving fields, there is always something new to learn about learning to learn!
+I am a currently a Master's Student at the Indian Institute of Technology Dharwad. I did my Bachelor's in Engineering at PESIT Bangalore South Campus, in Electronics and Communication Engineering. I am currently researching the field of Distributed Machine Learning, Federated Learning to be precise, which looks into machine learning across a network of devices! 
+I am interested in disciplines of the likes of reinforcement learning, deep learning, natural language processing, computer vision, and more. As these are ever evolving fields, there is always something new to learn about learning to learn, which I enjoy doing!
 
 The objective of this website is to showcase a bit more about the various things I am interested in and how that changes and evolves over time. It also serves as a pubic notebook of sorts from where I can refer to some information that I deem useful.
 
