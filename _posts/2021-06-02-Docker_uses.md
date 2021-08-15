@@ -161,6 +161,9 @@ Normally, when you run a container this way, it would be done as a root user, in
 
 VSCode allows for you to create a `devcontainer.json` file to specify setting like what volume to mount, what user mode to run it in and so on and so forth. This can be done, probably. But I have not been able to get it to work, thus I came up with this docker file instead, which helps with this scenario.
 
+<details>
+  <summary>The Dockerfile</summary>
+  
 ```dockerfile
 FROM ubuntu:latest
 #The next command sets root password s 1234 inside the container
@@ -180,6 +183,7 @@ USER nonrootuser
 RUN mkdir /home/nonrootuser/codes
 WORKDIR /home/nonrootuser/codes
 ```
+</details>
 
 #### What is this?
 
