@@ -200,7 +200,7 @@ It does the following things
 An ubuntu image can be created on your system with this docker file with the command 
 
 ``` bash
-docker build -t . <custom_image_name>
+docker build . -t <custom_image_name>
 ```
 
 
