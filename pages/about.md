@@ -21,7 +21,7 @@ This website is something of a blog mixed with my current interests and passions
 
 
 # Some Things About Me
-<strong>A well-defined problem is half solved._</strong>  By breaking down complex issues into manageable parts, I can approach problem-solving with clarity and precision. This approach is rooted in my background in mathematics, which has taught me the value of clear and rigorous thinking.
+<strong>A well-defined problem is half solved.</strong>  By breaking down complex issues into manageable parts, I can approach problem-solving with clarity and precision. This approach is rooted in my background in mathematics, which has taught me the value of clear and rigorous thinking.
 
 In decision-making, I avoid making absolute statements. While I haven't watched Star Wars, I appreciate the quote "only a Sith deals in absolutes" and recognize the importance of considering multiple possibilities when making decisions. This however does not mean that I'd prefer saying "I will most likely have dinner tonight at 20:30" over "I will have my dinner at 20:30 tonight", it just means that I try to factor in as many possibilities as I can, while making decisions, keeping room for all possibilities! Bayesian thinking is most likely an apt summary of this (probably).
 

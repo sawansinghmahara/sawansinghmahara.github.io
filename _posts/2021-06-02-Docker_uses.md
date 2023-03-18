@@ -73,7 +73,7 @@ I then modify the text file to keep or delete some containers, following which t
 import os
 with open('names.txt') as fp:
     for line in fp:
-        os.system(f"docker rm {line}")
+        os.system(f"docker rmi {line}")
 os.system("rm names.txt")
 ```
 
